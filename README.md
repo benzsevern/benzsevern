@@ -16,10 +16,10 @@ A modular toolkit where each piece works standalone or chains together via Golde
   CSV / DB / API
        │
        ▼
-┌─────────────┐    ┌─────────────┐    ┌─────────────┐
-│ GoldenCheck │───▶│ GoldenFlow  │───▶│ GoldenMatch │
-│  Validate   │    │  Transform  │    │   Resolve   │
-└─────────────┘    └─────────────┘    └─────────────┘
+┌─────────────┐     ┌─────────────┐    ┌──────────────┐
+│ GoldenCheck │───▶│ GoldenFlow  │───▶│ GoldenMatch  │
+│  Validate   │     │  Transform  │    │   Resolve    │
+└─────────────┘     └─────────────┘    └ ─────────────┘
        └──────────────────┬──────────────────┘
                           ▼
                     GoldenPipe
